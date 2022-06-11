@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class ouvrage extends Model
 {
     use HasFactory;
+    protected $table = 'ouvrage';
+    protected $fillable =['cote ouvrage']
 }
